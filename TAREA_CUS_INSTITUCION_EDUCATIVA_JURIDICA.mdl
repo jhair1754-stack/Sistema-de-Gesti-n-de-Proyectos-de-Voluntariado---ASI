@@ -519,7 +519,7 @@
 						supplier   	@9
 						vertices   	(list Points
 						    (524, 1267)
-						    (688, 1366))
+						    (686, 1365))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$20" @12
 						Parent_View 	@10
@@ -531,7 +531,7 @@
 						supplier   	@3
 						vertices   	(list Points
 						    (524, 1267)
-						    (361, 1169))
+						    (361, 1168))
 						line_style 	0)))
 				    (object UseCaseView "Use Case View::Use-Case Model::SUSCRIBIR USUARIOS::CASOS DE USO::REGISTRAR FORMULARIOS DE SUSCRIPCION" @13
 					location   	(1696, 112)
@@ -609,7 +609,7 @@
 						supplier   	@4
 						vertices   	(list Points
 						    (1300, 441)
-						    (1984, 348))
+						    (1986, 348))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$2" @17
 						Parent_View 	@15
@@ -621,7 +621,7 @@
 						supplier   	@14
 						vertices   	(list Points
 						    (1300, 441)
-						    (617, 534))
+						    (617, 532))
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$3" @18
 					location   	(1173, 594)
@@ -660,7 +660,7 @@
 						supplier   	@14
 						vertices   	(list Points
 						    (1173, 594)
-						    (617, 547))
+						    (617, 546))
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$6" @21
 					location   	(1269, 758)
@@ -687,7 +687,7 @@
 						supplier   	@6
 						vertices   	(list Points
 						    (1269, 758)
-						    (1922, 958))
+						    (1922, 955))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$8" @23
 						Parent_View 	@21
@@ -726,7 +726,7 @@
 						supplier   	@7
 						vertices   	(list Points
 						    (1231, 963)
-						    (1745, 1284))
+						    (1749, 1286))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$11" @26
 						Parent_View 	@24
@@ -738,7 +738,7 @@
 						supplier   	@14
 						vertices   	(list Points
 						    (1231, 963)
-						    (718, 642))
+						    (617, 578))
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$12" @27
 					location   	(1101, 1156)
@@ -765,7 +765,7 @@
 						supplier   	@8
 						vertices   	(list Points
 						    (1101, 1156)
-						    (1484, 1589))
+						    (1482, 1589))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$14" @29
 						Parent_View 	@27
@@ -777,7 +777,7 @@
 						supplier   	@14
 						vertices   	(list Points
 						    (1101, 1156)
-						    (718, 723))
+						    (646, 641))
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$15" @30
 					location   	(693, 1079)
@@ -804,7 +804,7 @@
 						supplier   	@9
 						vertices   	(list Points
 						    (693, 1079)
-						    (766, 1365))
+						    (767, 1365))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$17" @32
 						Parent_View 	@30
@@ -816,7 +816,7 @@
 						supplier   	@14
 						vertices   	(list Points
 						    (693, 1079)
-						    (620, 793))
+						    (603, 727))
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$21" @33
 					location   	(1015, 367)
@@ -843,7 +843,7 @@
 						supplier   	@13
 						vertices   	(list Points
 						    (1015, 367)
-						    (1414, 215))
+						    (1375, 229))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$23" @35
 						Parent_View 	@33
@@ -855,7 +855,7 @@
 						supplier   	@14
 						vertices   	(list Points
 						    (1015, 367)
-						    (617, 519))
+						    (617, 518))
 						line_style 	0)))))))
 		    (object Class_Category "ATENDER PRESTAMOS"
 			quid       	"5535D9B1008D"
@@ -891,7 +891,7 @@
 				roles      	(list role_list
 				    (object Role "$UNNAMED$31"
 					quid       	"5535DC0F0168"
-					supplier   	"Use Case View::Use-Case Model::ATENDER PRESTAMOS::CASOS DE USO::REGISTRAR AUTORIZACION DEL PRESTAMO"
+					supplier   	"Use Case View::Use-Case Model::ATENDER PRESTAMOS::CASOS DE USO::AUTORIZAR PRESTAMO"
 					quidu      	"5535DBE10158"
 					is_navigable 	TRUE)
 				    (object Role "$UNNAMED$32"
@@ -929,7 +929,7 @@
 					quid       	"5535DBBB0242")
 				    (object UseCase "CONSULTAR TARJETA DE CONTROL"
 					quid       	"5535DBCC031D")
-				    (object UseCase "REGISTRAR AUTORIZACION DEL PRESTAMO"
+				    (object UseCase "AUTORIZAR PRESTAMO"
 					quid       	"5535DBE10158")
 				    (object UseCase "REGISTRAR FICHA  DE PRÉSTAMO"
 					quid       	"561204F7038B"))
@@ -938,11 +938,11 @@
 			    (object UseCaseDiagram "DCUS ATENDER PRESTAMOS"
 				quid       	"5535DA0C037B"
 				title      	"DCUS ATENDER PRESTAMOS"
-				zoom       	100
+				zoom       	90
 				max_height 	28350
 				max_width  	21600
 				origin_x   	0
-				origin_y   	0
+				origin_y   	271
 				items      	(list diagram_item_list
 				    (object UseCaseView "Use Case View::Use-Case Model::ATENDER PRESTAMOS::CASOS DE USO::CONSULTAR USUARIOS NO HABILES" @36
 					location   	(1152, 336)
@@ -990,7 +990,7 @@
 					line_color 	3342489
 					fill_color 	13434879
 					quidu      	"5535DBCC031D")
-				    (object UseCaseView "Use Case View::Use-Case Model::ATENDER PRESTAMOS::CASOS DE USO::REGISTRAR AUTORIZACION DEL PRESTAMO" @38
+				    (object UseCaseView "Use Case View::Use-Case Model::ATENDER PRESTAMOS::CASOS DE USO::AUTORIZAR PRESTAMO" @38
 					location   	(1168, 1248)
 					font       	(object Font
 					    size       	9
@@ -1008,7 +1008,7 @@
 					    nlines     	2
 					    max_width  	630
 					    justify    	0
-					    label      	"REGISTRAR AUTORIZACION DEL PRESTAMO")
+					    label      	"AUTORIZAR PRESTAMO")
 					icon_style 	"Icon"
 					line_color 	3342489
 					fill_color 	13434879
@@ -1144,7 +1144,7 @@
 						supplier   	@38
 						vertices   	(list Points
 						    (742, 1024)
-						    (1059, 1189))
+						    (1060, 1190))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$32" @48
 						Parent_View 	@46
@@ -1158,7 +1158,30 @@
 						    (742, 1024)
 						    (425, 860))
 						line_style 	0)))
-				    (object ClassView "Class" "Use Case View::Use-Case Model::ATENDER PRESTAMOS::ACTORES::USUARIO" @49
+				    (object UseCaseView "Use Case View::Use-Case Model::ATENDER PRESTAMOS::CASOS DE USO::REGISTRAR FICHA  DE PRÉSTAMO" @49
+					location   	(1120, 1760)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@49
+					    location   	(1120, 1898)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	630
+					    justify    	0
+					    label      	"REGISTRAR FICHA  DE PRÉSTAMO")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"561204F7038B")
+				    (object ClassView "Class" "Use Case View::Use-Case Model::ATENDER PRESTAMOS::ACTORES::USUARIO" @50
 					ShowCompartmentStereotypes 	TRUE
 					IncludeAttribute 	TRUE
 					IncludeOperation 	TRUE
@@ -1173,7 +1196,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@49
+					    Parent_View 	@50
 					    location   	(304, 1920)
 					    anchor_loc 	1
 					    nlines     	2
@@ -1186,29 +1209,6 @@
 					quidu      	"561204DF0204"
 					annotation 	8
 					autoResize 	TRUE)
-				    (object UseCaseView "Use Case View::Use-Case Model::ATENDER PRESTAMOS::CASOS DE USO::REGISTRAR FICHA  DE PRÉSTAMO" @50
-					location   	(1120, 1760)
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					label      	(object ItemLabel
-					    Parent_View 	@50
-					    location   	(1120, 1898)
-					    anchor_loc 	1
-					    nlines     	2
-					    max_width  	630
-					    justify    	0
-					    label      	"REGISTRAR FICHA  DE PRÉSTAMO")
-					icon_style 	"Icon"
-					line_color 	3342489
-					fill_color 	13434879
-					quidu      	"561204F7038B")
 				    (object AssociationViewNew "$UNNAMED$33" @51
 					location   	(684, 1760)
 					font       	(object Font
@@ -1231,7 +1231,7 @@
 						line_color 	3342489
 						quidu      	"56120509035C"
 						client     	@51
-						supplier   	@50
+						supplier   	@49
 						vertices   	(list Points
 						    (684, 1760)
 						    (1008, 1760))
@@ -1243,7 +1243,7 @@
 						line_color 	3342489
 						quidu      	"56120509035E"
 						client     	@51
-						supplier   	@49
+						supplier   	@50
 						vertices   	(list Points
 						    (684, 1760)
 						    (361, 1760))
